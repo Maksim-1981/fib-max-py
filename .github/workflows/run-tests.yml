@@ -11,5 +11,5 @@ jobs:
           pip install -r requirements.txt
        - name: run tests
         run: python -m unittest discover ./tests
-       - name: run type cheking
+       - name: run type cheсking
         run: mypy fib_max_py
